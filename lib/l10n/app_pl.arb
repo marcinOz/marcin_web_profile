@@ -1,0 +1,39 @@
+{
+  "@@locale": "pl",
+  "profilePageTitle": "Alex Chen - Profil",
+  "@profilePageTitle": {
+    "description": "Tytuł strony profilowej"
+  },
+  "name": "Alex Chen",
+  "jobTitle": "Engineering Manager, Mobile App Platform w OLX Group",
+  "bio": "Prowadzenie inicjatyw platformy mobilnej i doskonałości inżynieryjnej w OLX Group. Pasjonat budowania skalowalnych rozwiązań mobilnych i mentoringu zespołów inżynierskich.",
+  "location": "Berlin, Niemcy",
+  "mentoring": "Otwarty na mentoring",
+  "area": "Rozwój Mobilny",
+  "overview": "Przegląd",
+  "experience": "Doświadczenie",
+  "articles": "Artykuły",
+  "projects": "Projekty",
+  "githubFollowers": "Obserwujący Github",
+  "repositories": "Repozytoria",
+  "linkedinConnections": "Kontakty LinkedIn",
+  "technicalArticles": "Artykuły Techniczne",
+  "professionalExperience": "Doświadczenie Zawodowe",
+  "recentArticles": "Ostatnie Artykuły",
+  "githubActivity": "Aktywność Github",
+  "contributions": "Kontrybucje",
+  "pullRequests": "Pull Requests",
+  "issuesClosed": "Zamknięte Zadania",
+  "certificationsAndBadges": "Certyfikaty i Odznaki",
+  "technicalSkills": "Umiejętności Techniczne",
+  "lastUpdated": "Ostatnia aktualizacja: {date}",
+  "@lastUpdated": {
+    "description": "Znacznik czasu ostatniej aktualizacji",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Marzec 2025"
+      }
+    }
+  }
+} 
