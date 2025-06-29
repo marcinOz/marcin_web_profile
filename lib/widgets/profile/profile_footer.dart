@@ -18,7 +18,6 @@ class ProfileFooter extends StatelessWidget {
     final Uri uri = Uri.parse(url);
     if (!await launchUrl(uri)) {
       // TODO: Handle error (e.g., show a snackbar)
-      print('Could not launch $url');
     }
   }
 

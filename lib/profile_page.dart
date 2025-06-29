@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:marcin_web_profile/constants.dart';
 import 'package:marcin_web_profile/widgets/profile/custom_app_bar.dart';
 import 'package:marcin_web_profile/widgets/profile/profile_header.dart';
@@ -23,7 +22,6 @@ class ProfilePage extends StatelessWidget {
     const certificationsSection = CertificationsSection();
     const skillsSection = SkillsSection();
     const footerSection = ProfileFooter();
-    final l10n = AppLocalizations.of(context)!; // Get l10n here for AppBar
 
     return Scaffold(
       appBar: CustomAppBar(),

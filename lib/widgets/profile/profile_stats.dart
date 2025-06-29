@@ -9,7 +9,6 @@ class ProfileStats extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
-    final textTheme = Theme.of(context).textTheme;
 
     // TODO: Replace with actual data
     const String followers = '1.2k';
