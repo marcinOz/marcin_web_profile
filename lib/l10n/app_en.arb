@@ -1,13 +1,13 @@
 {
   "@@locale": "en",
-  "profilePageTitle": "Alex Chen - Profile",
+  "profilePageTitle": "Marcin Oziemski - Profile",
   "@profilePageTitle": {
     "description": "Title for the profile page"
   },
-  "name": "Alex Chen",
-  "jobTitle": "Engineering Manager, Mobile App Platform at OLX Group",
-  "bio": "Leading mobile platform initiatives and engineering excellence at OLX Group. Passionate about building scalable mobile solutions and mentoring engineering teams.",
-  "location": "Berlin, Germany",
+  "name": "Marcin Oziemski",
+  "jobTitle": "Engineering Manager at OLX ( Eng. Platform )",
+  "bio": "Results-driven Engineering Leader with 12+ years of software development experience across diverse industries. Proven leadership skills, having successfully recruited, managed, and developed teams of up to 40 personnel. Public speaker and writer, actively sharing knowledge and insights.",
+  "location": "Gdańsk, Poland",
   "mentoring": "Open to mentoring",
   "area": "Mobile Development",
   "overview": "Overview",

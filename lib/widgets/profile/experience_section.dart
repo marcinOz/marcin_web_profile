@@ -16,27 +16,39 @@ class ExperienceSection extends StatelessWidget {
       children: [
         SectionTitle(title: l10n.professionalExperience),
         _ExperienceCard(
-          logoAsset: 'assets/images/olx_logo_placeholder.png', // Placeholder
-          title: l10n
-              .jobTitle, // Re-using for now, should have specific job titles
-          company: 'OLX Group', // Hardcoded
-          period: 'Jan 2023 - Present • Berlin, Germany', // Hardcoded
+          logoAsset: 'assets/images/olx_logo_placeholder.png',
+          title: 'Engineering Manager',
+          company: 'OLX',
+          period: 'January 2025 - Present • Gdańsk, Poland',
           descriptionPoints: [
-            'Leading a team of 15 mobile engineers across iOS and Android platforms',
-            'Implementing mobile architecture strategies and best practices',
-            'Driving technical excellence and innovation in mobile development',
+            'Leading the Engineering team for the App Platform',
+            'Managing engineering quality baselines and best practices',
+            'Driving technical excellence across mobile platforms',
           ],
         ),
         const SizedBox(height: kDefaultPadding),
         _ExperienceCard(
-          logoAsset: 'assets/images/uber_logo_placeholder.png', // Placeholder
-          title: 'Senior Mobile Engineer', // Hardcoded
-          company: 'Uber', // Hardcoded
-          period: 'Jun 2020 - Dec 2022 • Amsterdam, Netherlands', // Hardcoded
+          logoAsset: 'assets/images/netguru_logo_placeholder.png',
+          title: 'Engineering Lead',
+          company: 'Netguru',
+          period: 'August 2021 - December 2024 • Gdańsk, Poland',
           descriptionPoints: [
-            'Led development of key features in Uber Driver app',
-            'Improved app performance by 40%',
-            'Mentored junior engineers and conducted technical interviews',
+            'Led cross-functional teams and set engineering quality baselines',
+            'Mentored and coached direct reports across multiple projects',
+            'Set engineering strategy and maintained key stakeholder relationships',
+            'Balanced client, team, and company needs to achieve optimal results',
+          ],
+        ),
+        const SizedBox(height: kDefaultPadding),
+        _ExperienceCard(
+          logoAsset: 'assets/images/netguru_logo_placeholder.png',
+          title: 'Senior Flutter Developer',
+          company: 'Netguru',
+          period: 'March 2020 - October 2021 • Gdańsk, Poland',
+          descriptionPoints: [
+            'Started Flutter department at Netguru',
+            'Flutter Recruitment and Processes Owner',
+            'Established Flutter development best practices',
           ],
         ),
       ],

@@ -10,11 +10,11 @@ class ProfileStats extends StatelessWidget {
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
 
-    // TODO: Replace with actual data
-    const String followers = '1.2k';
-    const String repos = '48';
-    const String connections = '5.8k';
-    const String articles = '12';
+    // Based on LinkedIn profile and experience
+    const String followers = '500+';
+    const String repos = '25+';
+    const String connections = '500+';
+    const String articles = '10+';
 
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,

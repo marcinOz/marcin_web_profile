@@ -11,15 +11,19 @@ class SkillsSection extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
     final textTheme = Theme.of(context).textTheme;
 
-    // TODO: Replace with actual skills list
+    // Based on LinkedIn profile and experience
     final List<String> skills = [
-      'Kotlin',
-      'Swift',
       'Flutter',
-      'React Native',
-      'CI/CD',
-      'Architecture',
-      'Team Leadership'
+      'Android',
+      'Team Leadership',
+      'Engineering Management',
+      'Product Development',
+      'Operational Excellence',
+      'AWS',
+      'Mobile Architecture',
+      'Mentoring',
+      'Public Speaking',
+      'Technical Writing'
     ];
 
     return Card(
