@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #005da3;
+  --color-primary-dim: #00518f;
+  --color-primary-container: #4ea4ff;
+  --color-on-primary-container: #002444;
+  --color-secondary: #1458b6;
+  --color-secondary-container: #bed2ff;
+  --color-on-secondary-container: #004495;
+  --color-tertiary: #7e3f9f;
+  --color-tertiary-container: #da96fc;
+  --color-on-tertiary-container: #4f0970;
+  --color-surface: #f5f7f9;
+  --color-on-surface: #2c2f31;
+  --color-on-surface-variant: #595c5e;
+
+  --font-headline: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --radius-60px: 60px;
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-sm;
+  }
+  .hero-gradient {
+    background: linear-gradient(135deg, #005da3 0%, #4ea4ff 100%);
+  }
+  .chapter-heading {
+    @apply text-5xl md:text-7xl font-headline font-extrabold text-slate-900 leading-[1.1] tracking-tighter mb-8;
+  }
+  .impact-card {
+    @apply p-6 bg-white/60 rounded-2xl border border-slate-200/40 hover:bg-white/90 hover:shadow-lg transition-all duration-300;
+  }
+  .central-anchor {
+    @apply fixed top-[100px] md:top-1/2 left-1/2 -translate-x-1/2 md:-translate-y-1/2 z-0 pointer-events-none transition-all duration-500;
+  }
+  .anchor-container {
+    @apply relative w-[260px] md:w-[400px] aspect-[4/5] pointer-events-auto transition-all duration-500;
+  }
+  .content-column {
+    @apply w-full md:w-[35%] py-[80px] md:py-[120px] pointer-events-auto;
+  }
+}
